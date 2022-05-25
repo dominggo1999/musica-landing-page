@@ -1,9 +1,9 @@
-export const Link = ({ href, children, ...rest }) => {
+export const Link = ({ to, children, ...rest }) => {
   return (
     <a
-      rel="noopener noreferer"
       target="_blank"
-      href=""
+      rel="noopener noreferrer"
+      href={to}
       {...rest}
     >{children}
     </a>

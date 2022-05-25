@@ -73,7 +73,7 @@ export const LinksWrapper = styled.div`
   `}
 `;
 
-export const LinkButton = styled.a`
+export const LinkButton = styled(Link)`
   ${tw`
     rounded-full 
     text-primary 

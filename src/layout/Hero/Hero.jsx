@@ -22,13 +22,13 @@ const Hero = () => {
         <Title>Musica</Title>
         <Description>Desktop music player app created using
           {' '}
-          <Link href="https://www.electronjs.org/">
+          <Link to="https://www.electronjs.org/">
             electron
           </Link>
           {' '}
           and
           {' '}
-          <Link href="https://reactjs.org/">
+          <Link to="https://reactjs.org/">
             react
           </Link>
           .
@@ -47,9 +47,7 @@ const Hero = () => {
 
         <LinksWrapper>
           <LinkButton
-            href="https://github.com/dominggo1999/music-player"
-            rel="noopener noreferer"
-            target="_blank"
+            to="https://github.com/dominggo1999/music-player"
           >
             <AiFillGithub />
             Source Code

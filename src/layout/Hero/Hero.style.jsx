@@ -85,6 +85,7 @@ export const LinkButton = styled(Link)`
     flex 
     items-center 
     text-sm
+    hover:bg-accentHover
   `}
 
   svg{

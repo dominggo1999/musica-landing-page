@@ -34,11 +34,11 @@ const Hero = () => {
           .
         </Description>
         <LinksWrapper>
-          <LinkButton>
+          <LinkButton to="https://mega.nz/file/yqhTGZiA#K-4d4bxDIfHu4ST_3DqW_Hlt3jjGlRTum9PzHrkrw5c">
             <AiFillWindows />
             Download zip
           </LinkButton>
-          <LinkButton>
+          <LinkButton to="https://mega.nz/file/fy4zSLgb#zwwd0Vji2VvmJnUVpfVLKiI2i4jI6vmVNgQp6zeZ5RY">
             <AiFillWindows />
             Download msi
           </LinkButton>

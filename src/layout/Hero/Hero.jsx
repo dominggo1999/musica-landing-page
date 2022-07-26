@@ -66,8 +66,10 @@ const Hero = () => {
               },
             ],
           }}
-        >
-        </Plyr>
+          options={{
+            ratio: '1000:650',
+          }}
+        />
       </DemoVideo>
     </HeroWrapper>
   );
